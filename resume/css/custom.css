@@ -1,0 +1,55 @@
+.post-teaser__tags {
+
+}
+
+.teaser-tag {
+    letter-spacing: 2px;
+}
+
+.teaser-tag a::before {
+    content: "#";
+}
+
+.body-text {
+    width: 50%;
+    text-align: justify;
+    display: block;
+    margin: 0 auto;
+}
+
+.body-text-p {
+    width: 45%;
+    text-align: justify;
+    display: block;
+    margin: 0 auto;
+}
+
+.credits-text {
+    width: 50%;
+    text-align: justify;
+    display: block;
+    margin: 0 auto;
+    color: gray;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 500px) {
+    /* For mobile phones: */
+    [class*="body-text"] {
+      width: 100%;
+    }
+  }
+
+.p_portfolio {
+  width: 100%;
+  text-align: left;
+  display: block;
+  text-align: center;
+}
+
+.i_portfolio {
+  width: 100%;
+  text-align: left;
+  display: block;
+  text-align: center;
+    }
